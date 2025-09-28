@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "msMjWbpVV/1Nl5fYp12qjg5JdY08W+C7L69n6AdbQYg=",
+  "Source": "GameStore.Api",
+  "BasePath": "_content/GameStore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GameStore.Api\\wwwroot",
+      "Source": "GameStore.Api",
+      "ContentRoot": "D:\\projects\\GameStore\\GameStore.Api\\wwwroot\\",
+      "BasePath": "_content/GameStore.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\projects\\GameStore\\GameStore.Api\\wwwroot\\app.js",
+      "SourceId": "GameStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projects\\GameStore\\GameStore.Api\\wwwroot\\",
+      "BasePath": "_content/GameStore.Api",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "D:\\projects\\GameStore\\GameStore.Api\\wwwroot\\index.html",
+      "SourceId": "GameStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projects\\GameStore\\GameStore.Api\\wwwroot\\",
+      "BasePath": "_content/GameStore.Api",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\projects\\GameStore\\GameStore.Api\\wwwroot\\style.css",
+      "SourceId": "GameStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projects\\GameStore\\GameStore.Api\\wwwroot\\",
+      "BasePath": "_content/GameStore.Api",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

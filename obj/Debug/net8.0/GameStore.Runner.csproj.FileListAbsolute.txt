@@ -1,0 +1,14 @@
+d:\projects\GameStore\obj\Debug\net8.0\GameStore.Runner.GeneratedMSBuildEditorConfig.editorconfig
+d:\projects\GameStore\obj\Debug\net8.0\GameStore.Runner.AssemblyInfoInputs.cache
+d:\projects\GameStore\obj\Debug\net8.0\GameStore.Runner.AssemblyInfo.cs
+d:\projects\GameStore\obj\Debug\net8.0\GameStore.Runner.csproj.CoreCompileInputs.cache
+d:\projects\GameStore\bin\Debug\net8.0\GameStore.Runner.exe
+d:\projects\GameStore\bin\Debug\net8.0\GameStore.Runner.deps.json
+d:\projects\GameStore\bin\Debug\net8.0\GameStore.Runner.runtimeconfig.json
+d:\projects\GameStore\bin\Debug\net8.0\GameStore.Runner.dll
+d:\projects\GameStore\bin\Debug\net8.0\GameStore.Runner.pdb
+d:\projects\GameStore\obj\Debug\net8.0\GameStore.Runner.dll
+d:\projects\GameStore\obj\Debug\net8.0\refint\GameStore.Runner.dll
+d:\projects\GameStore\obj\Debug\net8.0\GameStore.Runner.pdb
+d:\projects\GameStore\obj\Debug\net8.0\GameStore.Runner.genruntimeconfig.cache
+d:\projects\GameStore\obj\Debug\net8.0\ref\GameStore.Runner.dll

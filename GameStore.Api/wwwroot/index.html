@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GameStore UI</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>GameStore</h1>
+  <p>A minimal UI to view and manage games and genres.</p>
+
+  <section id="genres">
+    <h2>Genres</h2>
+    <div id="genres-list"></div>
+  </section>
+
+  <section id="games">
+    <h2>Games</h2>
+    <div id="games-list"></div>
+
+    <h3 id="form-title">Create Game</h3>
+    <div class="card">
+      <input type="hidden" id="game-id" />
+      <label>Name <input id="game-name" /></label>
+      <label>Genre <select id="game-genre"></select></label>
+      <label>Price <input id="game-price" type="number" step="0.01" /></label>
+      <label>Release Date <input id="game-date" type="date" /></label>
+  <button id="create-game" type="button">Create</button>
+  <button id="cancel-edit" type="button" style="display:none; margin-left:8px">Cancel</button>
+    </div>
+  </section>
+
+  <script src="/app.js"></script>
+</body>
+</html>

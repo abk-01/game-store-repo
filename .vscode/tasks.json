@@ -1,0 +1,78 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"build",
+				"${workspaceFolder}/GameStore.Api/GameStore.Api.csproj",
+				"/property:GenerateFullPaths=true",
+				"/consoleloggerparameters:NoSummary"
+			],
+			"problemMatcher": "$msCompile",
+			"group": "build"
+		},
+		{
+			"label": "publish",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"publish",
+				"${workspaceFolder}/GameStore.Api/GameStore.Api.csproj",
+				"/property:GenerateFullPaths=true",
+				"/consoleloggerparameters:NoSummary"
+			],
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "run",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"run",
+				"--project",
+				"${workspaceFolder}/GameStore.Api/GameStore.Api.csproj",
+				"--launch-profile",
+				"http"
+			],
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "watch",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"watch",
+				"run",
+				"--project",
+				"${workspaceFolder}/GameStore.Api/GameStore.Api.csproj",
+				"--launch-profile",
+				"http"
+			],
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "Kill process PID 24080",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-Command",
+				"Get-Process -Id 24080 -ErrorAction SilentlyContinue | Stop-Process -Force; echo 'Process killed or not found'"
+			]
+		},
+		{
+			"label": "Test API endpoints",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"${workspaceFolder}/scripts/test-api-endpoints.ps1"
+			]
+		}
+	]
+}
