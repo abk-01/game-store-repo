@@ -5,13 +5,13 @@ Built with **Entity Framework Core + SQLite**, it demonstrates CRUD operations, 
 
 ---
 
-## 🚀 Features
-- ✅ Manage Games (Create, Read, Update, Delete)  
-- ✅ Manage Genres (pre-seeded categories like Fighting, Racing, Sports)  
-- ✅ Entity Framework Core with SQLite database  
-- ✅ Swagger UI for testing APIs  
-- ✅ CORS enabled (ready for frontend integration)  
-- ✅ Minimal API structure with clean DTO mapping  
+##  Features
+-  Manage Games (Create, Read, Update, Delete)  
+-  Manage Genres (pre-seeded categories like Fighting, Racing, Sports)  
+-  Entity Framework Core with SQLite database  
+-  Swagger UI for testing APIs  
+-  CORS enabled (ready for frontend integration)  
+-  Minimal API structure with clean DTO mapping  
 
 ---
 
