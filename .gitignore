@@ -1,0 +1,23 @@
+# Ignore build outputs
+**/bin/
+**/obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Local DB files
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+
+# Node
+node_modules/
